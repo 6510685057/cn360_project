@@ -1671,6 +1671,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045078583}
   m_CullTransparentMesh: 1
+--- !u!1 &1109483405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1109483407}
+  - component: {fileID: 1109483406}
+  m_Layer: 0
+  m_Name: SerialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1109483406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109483405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a7b5a62b79afb4d8880379c0c0f550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portName: COM3
+  baudRate: 9600
+  reactionManager: {fileID: 1221241041}
+--- !u!4 &1109483407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109483405}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5110776, y: 0.4223129, z: -1.8066796}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221241039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1221241040}
+  - component: {fileID: 1221241041}
   m_Layer: 0
   m_Name: TargetZone
   m_TagString: Untagged
@@ -1707,6 +1755,32 @@ Transform:
   - {fileID: 603644156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1221241041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221241039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe045fe71d0faa40b7459138117bf3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greenBallPrefab: {fileID: 9148173646399655948, guid: ea7b556773c8ba54e95ccb5046a52d0f, type: 3}
+  redBallPrefab: {fileID: 6145442038576159002, guid: 04b0bcc1687722e48ab4e4a11e510288, type: 3}
+  spawnPoints:
+  - {fileID: 265488515}
+  - {fileID: 2077938235}
+  - {fileID: 1716228845}
+  - {fileID: 1415987847}
+  - {fileID: 603644156}
+  scoreText: {fileID: 7753013}
+  timerText: {fileID: 1522906577}
+  stateText: {fileID: 1045078585}
+  serial: {fileID: 1109483406}
+  gameTime: 60
+  ballVisibleTime: 1
 --- !u!1 &1394686650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,3 +3035,4 @@ SceneRoots:
   - {fileID: 1221241040}
   - {fileID: 817830263}
   - {fileID: 960264881}
+  - {fileID: 1109483407}
