@@ -65,23 +65,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/SerialManager.cs" />
-    <Compile Include="Assets/Scripts/VRInputController.cs" />
     <Compile Include="Assets/Scripts/ReactionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Packages/System.Drawing.Common.8.0.11/lib/netstandard2.0/System.Drawing.Common.dll" />
+    <None Include="Assets/Packages/System.Drawing.Common.8.0.11/LICENSE.TXT" />
+    <None Include="Assets/Packages/OpenCvSharp4.Extensions.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.Extensions.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Packages/System.Drawing.Common.8.0.11/useSharedDesignerContext.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Packages/OpenCvSharp4.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.xml" />
+    <None Include="Assets/Packages/OpenCvSharp4.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/Packages/System.Drawing.Common.8.0.11/THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Packages/System.Drawing.Common.8.0.11/lib/netstandard2.0/System.Drawing.Common.xml" />
+    <None Include="Assets/Packages/OpenCvSharp4.Extensions.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.Extensions.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
@@ -89,6 +97,9 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/StreamingAssets/haarcascade_frontalface_default.xml" />
+    <None Include="Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.1.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" />
+    <None Include="Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.1.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -430,6 +441,22 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.1.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp">
+      <HintPath>Assets/Packages/OpenCvSharp4.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>Assets/Packages/System.Drawing.Common.8.0.11/lib/netstandard2.0/System.Drawing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions">
+      <HintPath>Assets/Packages/OpenCvSharp4.Extensions.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

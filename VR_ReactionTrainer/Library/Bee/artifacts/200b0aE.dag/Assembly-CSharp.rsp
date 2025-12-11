@@ -330,6 +330,10 @@
 -r:"/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Assets/Packages/OpenCvSharp4.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.dll"
+-r:"Assets/Packages/OpenCvSharp4.Extensions.4.11.0.20250507/lib/netstandard2.1/OpenCvSharp.Extensions.dll"
+-r:"Assets/Packages/System.Drawing.Common.8.0.11/lib/netstandard2.0/System.Drawing.Common.dll"
+-r:"Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.1.2/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -382,7 +386,6 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ReactionManager.cs"
 "Assets/Scripts/SerialManager.cs"
-"Assets/Scripts/VRInputController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
